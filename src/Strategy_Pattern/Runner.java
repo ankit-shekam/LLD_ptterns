@@ -9,7 +9,7 @@ public class Runner {
 
 //    create a vehicle package where each vehicle has a specific type of drive() logic and you
 //    have the capability of switching between the different drive logic with minimal change
-    
+
     Vehicle v1 = new Vehicle(new NormalDrive());
     v1.drive(v1.hashCode());
 
